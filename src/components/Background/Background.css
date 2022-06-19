@@ -1,0 +1,20 @@
+.background-video, .background-video *{
+    height: 100vh!important;
+    left: 50%!important;
+    min-height: 100vh!important;
+    min-width: 100vw!important;
+    position: absolute!important;
+    top: 50%!important;
+    -webkit-transform: translate(-50%,-50%)!important;
+    transform: translate(-50%,-50%)!important;
+    width: 177.77778vh!important;
+    z-index: 10;
+    display: block;
+}
+@media (min-aspect-ratio: 16 / 9)  {
+    .background-video video{
+         height: 56.25vw!important;
+        width: 100vw!important;
+    }
+   
+}

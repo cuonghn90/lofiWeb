@@ -1,0 +1,2 @@
+export const listSongs = ['/sound/song/chill_16.mp3', '/sound/song/02 Sleepermane - Orbital.mp3',
+    '/sound/song/lost in translation.mp3', '/sound/song/mystery_o - red moon.mp3', '/sound/song/Sonus Vibes x Sleeping With Shoes On - Warm Reflection LLR.mp3']

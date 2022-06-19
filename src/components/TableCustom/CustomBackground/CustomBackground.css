@@ -1,0 +1,62 @@
+.customBackground{
+    position: absolute;
+    right:8%;
+    top:7%;
+    width:370px;
+    height:540px;
+    padding:20px 20px;
+    z-index:150;
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.listBackground{
+    width:100%;
+    height:550px;
+    overflow-y: scroll;
+}
+.paternBackground{
+    height:210px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #666;
+    color:white;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.imagePatern{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     border-radius: 20px;
+}
+.nameBackground{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    z-index: 160;
+}
+.iconOptionBackground{
+    z-index: 160;
+}
+.iconCustom{
+    font-size: 20px;
+    color:white;
+     z-index: 160;
+    margin: 0 5px;
+}
+.iconVip{
+    position: absolute;
+    top:10px;
+    font-size: 23px;
+    color: orange;
+    right: 10px;
+}

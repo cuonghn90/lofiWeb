@@ -1,0 +1,169 @@
+.customMood{
+    position: absolute;
+    right:8%;
+    top:16%;
+    width:350px;
+    height:420px;
+    padding:20px 35px;
+    z-index:150;
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.textCustom{
+    width: 100%;
+    height:30px;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    font-weight:600;
+    font-size: 21px;
+}
+.typeMood{
+    width: 100%;
+    display: flex;
+    height:85px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nameMood{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(38, 36, 36);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iconMood{
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 7px;
+}
+.iconMood.active{
+    color:orange;
+}
+.nameMood p{
+    color:gray;
+    font-size: 16px;
+}
+.textMood.active{
+    color:white;
+}
+.volumeMood{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.volumeMute{
+    font-size: 35px;
+    color:orange;
+}
+.volumeLow{
+    font-size: 35px;
+    color:orange;
+}
+.rangeVolume{
+    width: 65%;
+    border-radius: 10px;
+    height:15px;
+    /* background-color: orange; */
+    background-color: #333;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.rangeVolume::before{
+    content:'';
+    position: absolute;
+    width: 50%;
+    height:100%;
+    background-color: orange;
+}
+.cursorVolume{
+    position: absolute;
+    height:15px;
+    width: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    left:50%;
+    transform: translateX(-50%);
+}
+.backgroundNoies{
+    width: 100%;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.listInputRange{
+    width: 100%;
+    height:120px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.inputRange{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.nameInputNoies{
+    width: 100%;
+    color: #666;
+    font-weight: 600;
+}
+.rangeInputNoies{
+    width: 80%;
+    border-radius: 15px;
+    height:25px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #333;
+}
+.rangeInputNoies::before{
+    content:'';
+    background-color: orange;
+    width: 50%;
+    /* border-radius: 10px; */
+    height:25px;
+    position: absolute;
+}
+.cursorInputNoies{
+    position:absolute;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-color: white;
+    left:50%;
+    transform: translateX(-50%);
+}
+.iconInputNoies{
+    width: 100%;
+}
+.wrapperIconNoies{
+    width: 25px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+     z-index: 130;
+}
+.iconNoies{
+    font-size: 17px;
+    color:black;
+}

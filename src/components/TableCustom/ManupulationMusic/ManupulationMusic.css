@@ -1,0 +1,28 @@
+.wrapperManupulation{
+    position:absolute;
+    bottom: 5%;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height:30px;
+    z-index:150
+}
+.pauseMusic{
+    margin: 0 15px;
+    cursor: pointer;
+    width: 50px;
+    height:50px;
+}
+.pauseMusic img{
+    width: 50px;
+    height:50px;
+}
+.prevMusic{
+    cursor: pointer;
+}
+.nextMusic{
+    cursor: pointer;
+}

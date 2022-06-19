@@ -1,0 +1,87 @@
+.buttonToggle{
+    position:absolute;
+    top:30px;
+    left:60%;
+    width:65px;
+    height:30px;
+    z-index: 100;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.buttonToggle.off{
+    animation: buttonToggleOff 0.2s ease forwards;
+    /* background-color: transparent; */
+}
+@keyframes buttonToggleOff{
+    0%{
+        background-color: rgba(248, 163, 3, 1);
+    }
+    100%{
+        background-color: transparent;
+    }
+}
+.buttonToggle.on{
+    animation: buttonToggleOn 0.4s ease forwards;
+    /* background-color: orange; */
+}
+@keyframes buttonToggleOn{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgba(255, 165, 0,1);
+    }
+}
+.circleButton{
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    border-radius: 15px;
+    z-index: 130;
+}
+.circleButton.off{
+     animation: toggleThemeOff 0.4s ease forwards;
+}
+.circleButton.on{
+    animation: toggleThemeOn 0.4s ease forwards;
+    
+}
+@keyframes toggleThemeOn{
+    from{
+        left:0;
+    }
+    to{
+        left:50%;
+    }
+}
+@keyframes toggleThemeOff{
+    from{
+        left:50%;
+    }
+    to{
+        left:0;
+    }
+}
+.iconSun{
+    align-items: center;
+    color:white;
+    font-size: 23px;
+    height: 100%;
+    position: absolute;
+    left:5px;
+    z-index: 101;
+    display: inline-block;
+}
+.iconMoon{
+    align-items: center;
+    color:white;
+    font-size: 23px;
+    height: 100%;
+    position: absolute;
+    right:5px;
+    z-index: 101;
+    display: inline-block;
+}
